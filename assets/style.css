@@ -28,3 +28,12 @@
 @media(max-width:900px){:root{--hero-nav:70px}}
 
 @media(min-width:901px){.portrait div{padding:.85rem 1.1rem;min-width:12.75rem}}
+
+/* Compact desktop portrait v3 */
+@media(min-width:901px){
+.hero>div:last-child{width:min(100%,22rem);justify-self:center}
+.portrait{padding:.75rem}
+.portrait img{max-height:min(28rem,calc(100svh - var(--hero-nav,76px) - 12rem))}
+.portrait div{left:-1.5rem;bottom:1.25rem;padding:.7rem .9rem;min-width:11.5rem}
+.portrait div strong{font-size:1rem}
+}
