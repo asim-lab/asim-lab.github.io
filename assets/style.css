@@ -31,9 +31,9 @@
 
 /* Compact desktop portrait v3 */
 @media(min-width:901px){
-.hero>div:last-child{width:min(100%,22rem);justify-self:center}
+.hero>div:last-child{width:min(100%,26rem);justify-self:center}
 .portrait{padding:.75rem}
-.portrait img{max-height:min(28rem,calc(100svh - var(--hero-nav,76px) - 12rem))}
+.portrait img{height:min(28rem,calc(100svh - var(--hero-nav,76px) - 12rem));max-height:none;aspect-ratio:auto}
 .portrait div{left:-1.5rem;bottom:1.25rem;padding:.7rem .9rem;min-width:11.5rem}
 .portrait div strong{font-size:1rem}
 }
